@@ -1,0 +1,37 @@
+/* פריסה כללית */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #444;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* עוטף את כל האפליקציה */
+.app {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  justify-content: center;
+}
+
+/* מכולת כל הכרטיסים */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* קלאס להדגשה */
+.bold {
+  font-weight: bold;
+}
